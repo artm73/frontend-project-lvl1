@@ -1,23 +1,26 @@
 {
   "name": "@hexlet/code",
-  "type": "module",  
   "version": "1.0.0",
   "description": "[![Actions Status](https://github.com/artm73/frontend-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/artm73/frontend-project-lvl1/actions)",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
-  }, 
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/artm73/frontend-project-lvl1.git"
   },
   "author": "artem",
   "license": "ISC",
+  "type": "module",
   "bin": {
     "brain-games": "bin/brain-games.js"
-    },
+  },
   "bugs": {
     "url": "https://github.com/artm73/frontend-project-lvl1/issues"
   },
-  "homepage": "https://github.com/artm73/frontend-project-lvl1#readme"
+  "homepage": "https://github.com/artm73/frontend-project-lvl1#readme",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
 }
