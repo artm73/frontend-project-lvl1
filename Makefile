@@ -4,7 +4,7 @@ install:
 brain-games:
 	node bin/brain-games.js
 brain-even:
-	node src/brain-even.js
+	node bin/brain-even.js
 
 publish:
 	npm publish --dry-run

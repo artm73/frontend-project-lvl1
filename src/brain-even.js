@@ -1,9 +1,8 @@
-#!/usr/bin/games/env node
-/* eslint-disable import/prefer-default-export */
+#!/usr/bin/env node
 import readlineSync from 'readline-sync';
 
 // eslint-disable-next-line consistent-return
-export const newGame = () => {
+const newGame = () => {
   console.log('Welcome to the Brain Games!');
 
   const userName = readlineSync.question('May I have your name? ');
@@ -19,11 +18,19 @@ export const newGame = () => {
       if (userAnswer === 'yes') {
         console.log('Correct!');
       } else {
-        console.log(`'${userAnswer}' is wrong answer ;(. Correct answer was 'no'.`);
-        return `Let's try again, ${userName}!`;
+        console.log(`'${userAnswer}' is wrong answer ;(. Correct answer was 'yes'.`);
+        return console.log(`Let's try again, ${userName}!`);
       }
     }
-    console.log(`Congratulations, ${userName}!`);
-    return false;
+    if (number % 2 !== 0) {
+      if (userAnswer === 'no') {
+        console.log('Correct!');
+      } else {
+        console.log(`'${userAnswer}' is wrong answer ;(. Correct answer was 'no'.`);
+        return console.log(`Let's try again, ${userName}!`);
+      }
+    }
   }
+  return console.log(`Congratulations, ${userName}!`);
 };
+export default newGame;
