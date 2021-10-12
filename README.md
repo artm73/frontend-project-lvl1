@@ -8,3 +8,5 @@
 Ссылка на аскинему, шаг 5, brain-even: https://asciinema.org/a/YsyLomDIQ32azrLC8P9uT0ePa
 
 Ссылка на аскинему, шаг 6, brain-calc: https://asciinema.org/a/oNd2qJNxFzFdZcjgjjJUCAGZK
+
+Ссылка на аскинему, шаг 7, brain-gcd: https://asciinema.org/a/E40O0XyeyMcsQdzP2ozbb6Fgy
