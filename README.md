@@ -12,3 +12,5 @@
 Ссылка на аскинему, шаг 7, brain-gcd: https://asciinema.org/a/E40O0XyeyMcsQdzP2ozbb6Fgy
 
 Ссылка на аскинему, шаг 8, brain-progression: https://asciinema.org/a/Fb06qmjEJwlKy5YczCP29tMk3
+
+Ссылка на аскинему, шаг 9, brain-prime: https://asciinema.org/a/E3PUVawOWmflcHG5xqwpDn4DL
