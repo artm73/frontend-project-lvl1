@@ -20,7 +20,7 @@ const getQAndA = () => {
   const progression = getProgression(startItem, lengthOfProgression, difference);
   const answer = progression[hiddenItem];
   progression[hiddenItem] = '..';
-  const question = `${progression}`;
+  const question = `${progression.join(' ')}`;
   return [question, String(answer)];
 };
 
