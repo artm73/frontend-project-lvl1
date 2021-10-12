@@ -15,7 +15,7 @@ const description = 'What number is missing in the progression?';
 const getQAndA = () => {
   const startItem = getRandomNumber(0, 50);
   const lengthOfProgression = getRandomNumber(5, 10);
-  const hiddenItem = getRandomNumber(0, lengthOfProgression);
+  const hiddenItem = getRandomNumber(0, lengthOfProgression - 1);
   const difference = getRandomNumber(0, 15);
   const progression = getProgression(startItem, lengthOfProgression, difference);
   const answer = progression[hiddenItem];
