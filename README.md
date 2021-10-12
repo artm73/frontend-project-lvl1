@@ -10,3 +10,5 @@
 Ссылка на аскинему, шаг 6, brain-calc: https://asciinema.org/a/oNd2qJNxFzFdZcjgjjJUCAGZK
 
 Ссылка на аскинему, шаг 7, brain-gcd: https://asciinema.org/a/E40O0XyeyMcsQdzP2ozbb6Fgy
+
+Ссылка на аскинему, шаг 8, brain-progression: https://asciinema.org/a/Fb06qmjEJwlKy5YczCP29tMk3
