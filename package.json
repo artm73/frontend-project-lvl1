@@ -1,10 +1,9 @@
 {
   "name": "@hexlet/code",
   "version": "1.0.0",
-  "description": "[![Actions Status](https://github.com/artm73/frontend-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/artm73/frontend-project-lvl1/actions)",
-  "main": "index.js",
+  "description": "first project on hexlet",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
@@ -18,8 +17,8 @@
     "brain-even": "bin/brain-even.js",
     "brain-calc": "bin/brain-calc.js",
     "brain-gcd": "bin/brain-gcd.js",
-      "brain-progression": "bin/brain-progression.js",
-      "brain-prime": "bin/brain-prime.js"
+    "brain-progression": "bin/brain-progression.js",
+    "brain-prime": "bin/brain-prime.js"
   },
   "bugs": {
     "url": "https://github.com/artm73/frontend-project-lvl1/issues"

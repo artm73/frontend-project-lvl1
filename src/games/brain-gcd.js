@@ -1,5 +1,5 @@
 import getRandomNumber from '../common.js';
-import newGame from '../index.js';
+import runGame from '../index.js';
 
 const getGCD = (number1, number2) => {
   if (!number2) {
@@ -9,7 +9,7 @@ const getGCD = (number1, number2) => {
 };
 
 const description = 'Find the greatest common divisor of given numbers.';
-const getQAndA = () => {
+const getGameData = () => {
   const number1 = getRandomNumber(0, 25);
   const number2 = getRandomNumber(0, 25);
   const question = `${number1} ${number2}`;
@@ -17,6 +17,6 @@ const getQAndA = () => {
   return [question, String(answer)];
 };
 
-const brainGCD = () => newGame(description, getQAndA);
+const brainGCD = () => runGame(description, getGameData);
 
 export default brainGCD;

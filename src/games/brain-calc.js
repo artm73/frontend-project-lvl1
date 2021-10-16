@@ -1,5 +1,5 @@
 import getRandomNumber from '../common.js';
-import newGame from '../index.js';
+import runGame from '../index.js';
 
 const calculateExpression = (operand1, operator, operand2) => {
   let answer;
@@ -22,7 +22,7 @@ const calculateExpression = (operand1, operator, operand2) => {
 
 const description = 'What is the result of the expression?';
 const operators = ['+', '-', '*'];
-const getQAndA = () => {
+const getGameData = () => {
   const operand1 = getRandomNumber(0, 25);
   const operand2 = getRandomNumber(0, 25);
   const operator = operators[getRandomNumber(0, operators.length - 1)];
@@ -31,6 +31,6 @@ const getQAndA = () => {
   return [question, String(answer)];
 };
 
-const brainCalc = () => newGame(description, getQAndA);
+const brainCalc = () => runGame(description, getGameData);
 
 export default brainCalc;
